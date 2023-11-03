@@ -1,0 +1,579 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #273e47 !important;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover {
+    color: #a4243b;
+}
+
+.header-mode a {
+    text-decoration: none;
+    color: white;
+    /* padding: .5rem; */
+    height: 2rem;
+    flex-wrap: nowrap;
+
+}
+
+.header-mode {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.header-mode a:hover {
+    background-color: white;
+    color: #273e47;
+
+}
+
+.moon:hover {
+    background-color: #273e47;
+
+}
+
+.container {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.uni {
+    background-color: #fff9e7;
+    /* border: 2px solid red; */
+    height: 9rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 9rem;
+    width: 24rem;
+
+}
+
+.g20 {
+    /* border: 2px solid green; */
+    height: 9rem;
+    width: 28.3rem;
+}
+
+.hrc {
+    height: 9rem;
+    width: 26rem;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    /* border: 2px solid pink; */
+    width: 5rem;
+    height: 5rem;
+}
+
+.box1 div {
+    width: 6rem;
+}
+
+.div {
+    font-size: .7rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.box2 {
+    width: 10rem;
+    height: 6rem;
+}
+
+.box3 {
+    width: 13rem;
+    height: 4rem;
+}
+
+.g20 img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-title h1 {
+    font-size: 28px;
+}
+
+.logo-title p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: .5rem;
+    text-transform: capitalize;
+    color: #333;
+    margin-bottom: -.2rem;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-title span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: .5rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    padding-top: 1rem;
+}
+
+nav {
+    background-color: #a4243b;
+}
+
+.container-fluid a {
+    color: white;
+
+}
+
+.navbar {
+    height: 4rem;
+}
+
+
+.collapse {
+
+
+    margin-right: 4rem;
+    margin-left: 4rem;
+    width: 5rem !important;
+}
+
+.nav-item a {
+    font-size: .8rem;
+}
+
+.math {
+
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+}
+
+.math h1 {
+    color: white;
+    position: absolute;
+    top: 7rem;
+    left: 4rem;
+}
+
+.math img {
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+}
+
+.nav2 li a {
+    bottom: .5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.body {
+    height: 30rem;
+
+    border: 2px solid black;
+}
+
+.body1 {
+    /* border: 2px solid green; */
+    background-color: #fceade;
+    height: 29rem;
+
+}
+
+.nav2 {
+    height: 3rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.body1 h3 {
+    font-weight: 600;
+}
+
+.body1 .hr-tag {
+    height: .1rem;
+    margin-bottom: 1rem;
+    margin-top: .4rem;
+    color: white;
+    background-color: #273e47;
+}
+
+.body1 .boxx {
+
+    padding-left: 1rem;
+    height: 2.3rem;
+    padding-top: .5rem;
+    margin-top: .4rem;
+    color: white;
+    background-color: #273e47;
+    transition: background-color .1s .1s ease-in-out;
+}
+
+.boxx:hover {
+    cursor: pointer;
+    background-color: #1d2a2e;
+}
+
+.body2 {
+    /* border: 2px solid red; */
+    height: 90rem;
+    margin-bottom: 3rem;
+}
+
+.pure-body {
+    margin-top: 3rem;
+}
+
+.body2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 14rem;
+    background-color: #fceade;
+    width: 22rem;
+    padding: 0rem 1rem 0rem 1rem;
+
+}
+
+.heading {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.image {
+    height: 8rem;
+    width: 8rem;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.list-unstyled li a {
+    color: rgb(248, 237, 237);
+    font-size: .8rem;
+    line-height: 2rem;
+    transition: margin-left .3s .1s ease-in-out;
+}
+
+.list-unstyled li a:hover {
+    color: #bd586b;
+    margin-left: 1rem;
+}
+
+footer {
+    background-color: #273e47;
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .card {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .convert {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 21rem;
+    }
+
+    .body1 {
+        width: 100rem;
+        background-color: #fceade;
+
+    }
+
+    .body2 {
+        width: 80rem;
+        margin-top: 2rem;
+        /* height: 3rem; */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 34rem;
+        height: 10rem;
+        margin-top: 1rem;
+    }
+
+    .body2 {
+        height: 140rem;
+        margin-top: .5rem;
+
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .row {
+        display: flex !important;
+        flex-direction: row !important;
+
+    }
+
+    .write a {
+        font-size: .7rem;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    .header-mode {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        /* border: 2px solid red; */
+        width: 10rem;
+    }
+
+}
+
+@media only screen and (max-width: 1140px) {
+    .box3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 926px) {
+    .logo-title h1 {
+        font-size: 20px;
+    }
+
+    .logo-title p {
+        font-size: 15px;
+    }
+
+    .logo-title span {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .img {
+        width: 15rem;
+        height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .nav-item a {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 1088px) {
+    .nav-item a {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .container-fluid a {
+        color: black;
+        font-size: 1rem;
+        margin-left: 1rem;
+
+    }
+
+    .collapse {
+        z-index: 1;
+        position: relative;
+        right: 1rem;
+        background-color: white;
+        top: .7rem;
+        margin: 0;
+    }
+
+    .line {
+        border-bottom: 1px solid #888;
+
+    }
+
+    .collapse ul i {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 799px) {
+    .hrc {
+        display: none;
+    }
+
+    .math h1 {
+        top: 3rem;
+        left: 1rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 589px) {
+
+    .box2,
+    .box3 {
+        display: none;
+    }
+
+    .math h1 {
+        top: 2rem;
+        font-size: 1rem;
+    }
+
+
+    .g20 .box1 {
+        /* border: 2px solid green; */
+        width: 5rem;
+        height: 5rem;
+        position: relative;
+        top: 1rem;
+
+    }
+
+    .logo {
+        /* border: 2px solid green; */
+        width: 40%;
+        height: 50%;
+        position: relative;
+        left: 2rem;
+    }
+
+    .box {
+        /* border: 2px solid blueviolet; */
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 589px) {
+    .logo {
+        width: 30%;
+        height: 40%;
+        position: relative;
+        left: 3rem;
+    }
+
+    .g20 .box1 {
+        height: 4rem;
+        width: 4rem;
+        position: relative;
+        left: 2rem;
+    }
+
+    .box1 div {
+        width: 6rem;
+        position: relative;
+        right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 589px) {
+    .img {
+        height: 4rem;
+        width: 6rem;
+    }
+
+    .g20 .box1 {
+        position: relative;
+        height: 5rem;
+        width: 5rem;
+        left: 3rem;
+        top: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 364px) {
+    .img {
+        height: 3.4rem;
+        width: 6rem;
+    }
+
+    .g20 .box1 {
+        position: relative;
+        height: 4rem;
+        width: 4rem;
+        left: 2rem;
+        top: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 364px) {
+    .g20 .box1 {
+        height: 3rem;
+        width: 3rem;
+        position: relative;
+        top: 2rem;
+    }
+
+    .box1 div {
+        font-size: .5rem;
+        width: 5rem;
+        position: relative;
+        top: .5rem;
+    }
+}
+
+@media only screen and (max-width: 352px) {
+    .math h1 {
+        top: 1rem;
+    }
+
+}
